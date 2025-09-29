@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oliveira Car Service</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="c:\Users\Usuario-pc\Downloads\ChatGPT Image 29 de set. de 2025, 16_04_28.png" href="c:\Users\Usuario-pc\Downloads\ChatGPT Image 29 de set. de 2025, 16_04_28.png">
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    /* Botão flutuante WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: transform 0.3s;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body class="text-gray-800 bg-gray-50">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white shadow-xl sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center space-x-4">
+        <!-- Logo maior -->
+        <img src="c:\Users\Usuario-pc\Downloads\ChatGPT Image 29 de set. de 2025, 16_04_28.png" alt="Logo Oliveira Car Service" class="h-20 w-auto drop-shadow-lg">
+        <div>
+          <h1 class="text-2xl md:text-3xl font-extrabold tracking-wide text-red-500 uppercase">Oliveira Car Service</h1>
+          <p class="text-xs md:text-base text-gray-300 italic">Excelência e confiança no cuidado com seu carro</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-base font-semibold">
+        <a href="#home" class="hover:text-red-500 transition">Home</a>
+        <a href="#sobre" class="hover:text-red-500 transition">Sobre</a>
+        <a href="#servicos" class="hover:text-red-500 transition">Serviços</a>
+        <a href="#avaliacoes" class="hover:text-red-500 transition">Avaliações</a>
+        <a href="#contato" class="hover:text-red-500 transition">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="relative h-[60vh] flex items-center justify-center text-center text-white">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80" alt="Oficina" class="absolute inset-0 w-full h-full object-cover brightness-50">
+    <div class="relative z-10 max-w-2xl">
+      <h2 class="text-4xl font-extrabold mb-4 leading-tight drop-shadow-lg">
+        Seu carro nas mãos certas,<br>
+        sua confiança em primeiro lugar
+      </h2>
+      <p class="text-lg mb-6 font-light">
+        Manutenção completa com qualidade, segurança e transparência
+      </p>
+      <a href="#contato" class="bg-red-600 text-white px-8 py-3 rounded-full shadow-lg hover:bg-red-700 transition text-base">
+        Agende seu serviço
+      </a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-3xl font-bold mb-6 text-red-600">Sobre Nós</h2>
+      <p class="text-base leading-relaxed mb-3">
+        A Oliveira Car Service é referência em manutenção preventiva e corretiva, oferecendo serviços de alta qualidade com transparência e rapidez. Nossa missão é garantir a sua segurança e prolongar a vida útil do seu veículo.
+      </p>
+      <p class="text-base leading-relaxed">
+        Com uma equipe apaixonada por carros e equipada com tecnologia moderna, cuidamos de cada detalhe para que você tenha a melhor experiência.
+      </p>
+    </div>
+    <div>
+      <img src="https://www.teixeirasautocenter.com.br/arquivos/LoginID_186/Padrao/3-3862.jpg" alt="Equipe da oficina" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-white py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10 text-red-600">Nossos Serviços</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <!-- Troca de óleo -->
+        <div class="bg-gray-50 shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition">
+          <img src="https://edb931018340aeb3dd4b37a7e6ef7c9a.cdn.bubble.io/f1704287982952x919722690371298600/troca-de-oleo.jpg" alt="Troca de óleo" class="w-full h-40 object-cover">
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Troca de Óleo</h3>
+            <p class="text-sm">Óleos de alta performance que aumentam a durabilidade do motor.</p>
+          </div>
+        </div>
+        <!-- Freios -->
+        <div class="bg_gray-50 shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition">
+          <img src="https://www.azulseguros.com.br/wp-content/uploads/2019/07/Discos-de-freio.jpg" alt="Freios" class="w-full h-40 object-cover">
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Freios</h3>
+            <p class="text-sm">Revisão completa para máxima segurança e confiança na direção.</p>
+          </div>
+        </div>
+        <!-- Suspensão -->
+        <div class="bg-gray-50 shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition">
+          <img src="https://www.abcpneus.net/imagens/paginas/suspensao_01.webp" alt="Suspensão" class="w-full h-40 object-cover">
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Suspensão</h3>
+            <p class="text-sm">Mais conforto, estabilidade e segurança para o seu carro.</p>
+          </div>
+        </div>
+        <!-- Dentre outros -->
+        <div class="bg-gray-50 shadow-lg rounded-2xl overflow-hidden hover:scale-105 transition">
+          <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80" alt="Outros serviços" class="w-full h-40 object-cover">
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Dentre Outros</h3>
+            <p class="text-sm">Realizamos diversos outros serviços para manter seu carro em perfeitas condições.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avaliações Clientes -->
+  <section id="avaliacoes" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10 text-red-600">O que nossos clientes dizem</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Avaliação 1 -->
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div class="flex justify-center mb-3 text-yellow-400 text-lg">★★★★★</div>
+          <p class="italic text-gray-700 mb-4">“Atendimento excelente, resolveram meu problema muito rápido. Recomendo de olhos fechados!”</p>
+          <h4 class="font-semibold text-gray-900">Carlos Mendes</h4>
+        </div>
+        <!-- Avaliação 2 -->
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div class="flex justify-center mb-3 text-yellow-400 text-lg">★★★★★</div>
+          <p class="italic text-gray-700 mb-4">“Preço justo e equipe super atenciosa. Levo meu carro sempre aqui.”</p>
+          <h4 class="font-semibold text-gray-900">Fernanda Souza</h4>
+        </div>
+        <!-- Avaliação 3 -->
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
+          <div class="flex justify-center mb-3 text-yellow-400 text-lg">★★★★★</div>
+          <p class="italic text-gray-700 mb-4">“Melhor oficina da região! Profissionais de confiança e serviço rápido.”</p>
+          <h4 class="font-semibold text-gray-900">João Pereira</h4>
+        </div>
+      </div>
+
+      <!-- Botão Google Avaliações -->
+      <div class="mt-8">
+        <a href="https://www.google.com/search?sca_esv=219388647f983b16&rlz=1C1GCEA_enBR945BR945&sxsrf=AE3TifPScHinF4PKyhJIPKy1t1-NSra5Kw:1759176625179&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyzHExMBwnHfPKAwTtc7MXPn3G0uAhmOjzD1yvjAIeH0qhC2E8oRVhQhHWnJRKgdsXaYr4bdfJnXYL6dBZCxIs_AKh4PL4LD_9UVCV6ToQsIUP-tNQ%3D%3D&q=Oliveira+Car+Service+Coment%C3%A1rios&sa=X&ved=2ahUKEwjb5tzO4_6PAxWXppUCHWrcOvUQ0bkNegQIHRAD&biw=1366&bih=641&dpr=1#lrd=0x948b8fc5dc9fec19:0x588107186a3d4f26,3,,,,"
+           target="_blank"
+           class="inline-flex items-center space-x-3 px-6 py-3 bg-white border border-gray-300 rounded-full shadow hover:shadow-lg transition">
+          
+          <!-- Ícone do Google -->
+          <img src="https://img.icons8.com/?size=512&id=17949&format=png"
+               alt="Google" class="h-6 w-6">
+          
+          <!-- Texto e estrelas -->
+          <span class="flex flex-col text-left">
+            <span class="text-sm font-semibold text-gray-800">Deixe sua avaliação no Google</span>
+            <span class="text-yellow-400 text-lg leading-none">★★★★★</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10 text-red-600">Fale Conosco</h2>
+      <form class="grid gap-4 max-w-2xl mx-auto bg-white shadow-lg p-8 rounded-2xl">
+        <input type="text" placeholder="Seu nome" class="border p-3 rounded-lg focus:outline-red-600">
+        <input type="email" placeholder="Seu e-mail" class="border p-3 rounded-lg focus:outline-red-600">
+        <textarea placeholder="Mensagem" rows="5" class="border p-3 rounded-lg focus:outline-red-600"></textarea>
+        <button class="bg-red-600 text-white py-3 rounded-lg hover:bg-red-700 transition">Enviar</button>
+      </form>
+
+      <!-- Contatos em destaque -->
+      <div class="mt-10 grid md:grid-cols-3 gap-6 text-center">
+        <!-- Endereço -->
+        <div class="bg-white shadow-lg p-6 rounded-2xl hover:scale-105 transition">
+          <div class="text-red-600 text-4xl mb-3">📍</div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">Nosso Endereço</h4>
+          <p class="text-gray-700">Rua Timbiras, 202<br>Naviraí - MS</p>
+        </div>
+
+        <!-- Telefone -->
+        <div class="bg-white shadow-lg p-6 rounded-2xl hover:scale-105 transition">
+          <div class="text-blue-600 text-4xl mb-3">📞</div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">Telefone</h4>
+          <p class="text-gray-700">+55 67 3461-0167</p>
+          <a href="tel:+556734610167" class="inline-block mt-3 px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Ligar Agora</a>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="bg-white shadow-lg p-6 rounded-2xl hover:scale-105 transition">
+          <div class="text-green-600 text-4xl mb-3">💬</div>
+          <h4 class="font-bold text-lg text-gray-900 mb-2">WhatsApp</h4>
+          <p class="text-gray-700">Converse direto conosco</p>
+          <a href="https://wa.me/556734610167" target="_blank" class="inline-block mt-3 px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition">Fale no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 Oliveira Car Service - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Botão WhatsApp flutuante -->
+  <a href="https://wa.me/556734610167" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+    <!-- Ícone (SVG) -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M16.172 7a4.001 4.001 0 00-5.656 0L8 9.515A4.001 4.001 0 0116.172 7zM8 17.485l2.516 2.515a4.001 4.001 0 005.657 0l2.515-2.515M6.343 13.828l-2.828 2.828"/>
+    </svg>
+  </a>
+
+</body>
+</html>
